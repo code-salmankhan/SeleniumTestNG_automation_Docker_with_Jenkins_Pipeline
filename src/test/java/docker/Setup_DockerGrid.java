@@ -13,7 +13,9 @@ import java.util.concurrent.Future;
 import java.util.stream.Collectors;
 
 import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 
 public class Setup_DockerGrid 
@@ -40,9 +42,9 @@ public class Setup_DockerGrid
 	ProcessBuilder builder = new ProcessBuilder();
 	
 	
-	@BeforeClass
+	 @BeforeSuite
 	void startDockerGrid() throws IOException, InterruptedException
-	{
+	{/*
 		System.out.println(System.getProperty("user.dir"));
 		System.out.println(System.getProperty("os.name"));
 		
@@ -91,18 +93,22 @@ public class Setup_DockerGrid
 		}
 		
 		
+		
+	*/
 		 Thread.sleep(15000);
+		 System.out.println("Test Started");
 	}
 	
 	@Test
 	void start()
 	{
-		System.out.println("Test Started");
+		System.out.println("Test In Progress");
 	}
 	
-	@AfterClass
+	@AfterSuite
 	void stopDockerGrid() throws IOException, InterruptedException
 	{
+		/*
 		if(isWindows)
 		{
 			builder.command(System.getProperty("user.dir")+"/stop_dockergrid.sh");
@@ -124,9 +130,10 @@ public class Setup_DockerGrid
 			e.printStackTrace();
 		}
 		
-	
+	*/
 		 
-		 Thread.sleep(5000);
+		 Thread.sleep(15000);
+		 System.out.println("Test Completed");
 		
 	}
 

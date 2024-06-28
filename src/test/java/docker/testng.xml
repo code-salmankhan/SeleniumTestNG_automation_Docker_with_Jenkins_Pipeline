@@ -3,7 +3,7 @@
 <suite name="Suite" parallel="classes">
   <test thread-count="5" name="Test">
     <classes>
-     <!-- <class name="docker.Setup2_DockerGrid"/>-->
+     <class name="docker.Setup_DockerGrid"/>
       <class name="docker.FireFoxTest"/>
       <class name="docker.ChromeTest1"/>
       <class name="docker.ChromeTest3"/>

@@ -1,25 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-28T01:22:34 AEST" name="Default suite" finished-at="2024-05-28T01:22:55 AEST" duration-ms="20360">
+  <suite started-at="2024-06-28T17:35:23 AEST" name="Suite" finished-at="2024-06-28T17:35:34 AEST" duration-ms="10420">
     <groups>
     </groups>
-    <test started-at="2024-05-28T01:22:34 AEST" name="Default test" finished-at="2024-05-28T01:22:55 AEST" duration-ms="20360">
+    <test started-at="2024-06-28T17:35:23 AEST" name="Test" finished-at="2024-06-28T17:35:34 AEST" duration-ms="10420">
+      <class name="docker.ChromeTest1">
+        <test-method signature="test1()[pri:0, instance:docker.ChromeTest1@38c6f217]" started-at="2024-06-28T17:35:23 AEST" name="test1" finished-at="2024-06-28T17:35:34 AEST" duration-ms="10401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- docker.ChromeTest1 -->
       <class name="docker.Setup_DockerGrid">
-        <test-method is-config="true" signature="startDockerGrid()[pri:0, instance:docker.Setup_DockerGrid@67d48005]" started-at="2024-05-28T01:22:34 AEST" name="startDockerGrid" finished-at="2024-05-28T01:22:49 AEST" duration-ms="15311" status="PASS">
+        <test-method is-config="true" signature="startDockerGrid()[pri:0, instance:docker.Setup_DockerGrid@6c64cb25]" started-at="2024-06-28T17:35:08 AEST" name="startDockerGrid" finished-at="2024-06-28T17:35:23 AEST" duration-ms="15010" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startDockerGrid -->
-        <test-method signature="start()[pri:0, instance:docker.Setup_DockerGrid@67d48005]" started-at="2024-05-28T01:22:49 AEST" name="start" finished-at="2024-05-28T01:22:49 AEST" duration-ms="9" status="PASS">
+        <test-method signature="start()[pri:0, instance:docker.Setup_DockerGrid@6c64cb25]" started-at="2024-06-28T17:35:23 AEST" name="start" finished-at="2024-06-28T17:35:23 AEST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method is-config="true" signature="stopDockerGrid()[pri:0, instance:docker.Setup_DockerGrid@67d48005]" started-at="2024-05-28T01:22:50 AEST" name="stopDockerGrid" finished-at="2024-05-28T01:22:55 AEST" duration-ms="5009" status="PASS">
+        <test-method is-config="true" signature="stopDockerGrid()[pri:0, instance:docker.Setup_DockerGrid@6c64cb25]" started-at="2024-06-28T17:35:34 AEST" name="stopDockerGrid" finished-at="2024-06-28T17:35:49 AEST" duration-ms="15005" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stopDockerGrid -->
       </class> <!-- docker.Setup_DockerGrid -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="docker.ChromeTest3">
+        <test-method signature="test3()[pri:0, instance:docker.ChromeTest3@478190fc]" started-at="2024-06-28T17:35:23 AEST" name="test3" finished-at="2024-06-28T17:35:32 AEST" duration-ms="8782" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+      </class> <!-- docker.ChromeTest3 -->
+      <class name="docker.ChromeTest2">
+        <test-method signature="test2()[pri:0, instance:docker.ChromeTest2@79e2c065]" started-at="2024-06-28T17:35:23 AEST" name="test2" finished-at="2024-06-28T17:35:33 AEST" duration-ms="9500" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- docker.ChromeTest2 -->
+      <class name="docker.FireFoxTest">
+        <test-method signature="test4()[pri:0, instance:docker.FireFoxTest@399f45b1]" started-at="2024-06-28T17:35:23 AEST" name="test4" finished-at="2024-06-28T17:35:33 AEST" duration-ms="9594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+      </class> <!-- docker.FireFoxTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
